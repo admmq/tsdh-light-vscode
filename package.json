@@ -1,0 +1,33 @@
+{
+  "name": "tsdh-light",
+  "displayName": "tsdh-light",
+  "description": "A port of the tsdh-light Emacs theme by Tassilo Horn.",
+  "version": "0.1.0",
+  "publisher": "local",
+  "author": "Adam",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "emacs",
+    "tsdh"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "tsdh-light",
+        "uiTheme": "vs",
+        "path": "./themes/tsdh-light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "npx --yes @vscode/vsce@3 package --allow-missing-repository"
+  }
+}
